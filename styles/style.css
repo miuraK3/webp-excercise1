@@ -1,38 +1,60 @@
 html{
     font-size: 10px;
     font-family: 'Open Sans', sans-serif;
+    background-color: #a1c3e6;
   }
 
-h1 {
-    font-size: 60px;
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #e3edff;
+    padding: 0 20px 20px 20px;
+    border: 5px solid rgb(106, 120, 131);
     text-align: center;
   }
   
-p, li {
-    font-size: 16px;    
-    line-height: 2;
-    letter-spacing: 1px;
-  }
-
-html {
-    background-color: #00539F;
-  }  
-
-body {
-    width: 600px;
-    margin: 0 auto;
-    background-color: #FF9500;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
-    text-align: center;
-  }
-
 h1 {
     margin: 0;
     padding: 20px 0;    
     color: #00539F;
     text-shadow: 3px 3px 1px black;
+    font-size: 60px;
+    text-align: center;
   }
+
+h2 {
+    color: #4c7ba1;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;    
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+ul {
+  text-align: center;
+  list-style-type: circle;
+}
+
+/*リンクの状態が押す前*/
+a:link {
+    color: green;
+  }
+/*リンクの状態が押された後*/
+a:visited {
+    color: blue;
+  }
+/*リンクの上にマウスがある場合*/
+a:hover {
+    text-decoration: none;
+  }
+
+hr{
+  border-bottom: dashed rgb(115, 140, 155);
+}
 
 img {
     display: block;

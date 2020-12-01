@@ -1,5 +1,5 @@
 const myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello world!';
+myHeading.textContent = 'ページ作り、がんばれ！';
 
 let myImage = document.querySelector('img');
 
